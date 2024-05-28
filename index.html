@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    <h1 class="titulo">Conversor de Moedas</h1>
+    <div class="Conversor">
+        <section class="section1">
+            <select name="seletor" id="seletor1" class="seletores_">
+            <option value="USD">Dólar Americano</option>
+            <option value="BRL">Real Brasileiro</option>
+            <option value="CHF">Franco Suíço</option>
+            <option value="ARS">Peso Argentino</option>
+            <option value="BTC">Bitcoin</option>
+            <option value="EUR">Euro</option>
+            <option value="JPY">Iene Japonês</option>
+            </select>
+            <input type="number" onkeyup="converteMoeda()" id="input1">
+     </section>
+     <img src="./imagens/transference.png" alt="Imagem transferência"  class="imagem_">
+     <section class="section2">
+            <select name="seletor" id="seletor2" class="seletores_">
+                    <option value="BRL">Real Brasileiro</option>
+                    <option value="USD">Dólar Americano</option>
+                    <option value="JPY">Iene Japonês</option>
+                    <option value="EUR">Euro</option>
+                    <option value="BTC">Bitcoin</option>
+                    <option value="ARS">Peso Argentino</option>
+                    <option value="CHF">Franco Suíço</option>
+            </select>
+                <input type="number" onkeyup="" id="input2">
+     </section>
+    <script src="app.js"></script>
+</body>
+</html>
